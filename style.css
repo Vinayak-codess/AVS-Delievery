@@ -1,0 +1,46 @@
+body{
+  margin: 0px;
+  background-color: #323233;
+}
+
+/* Header 1 Styling */
+
+.main-header{
+  background-color: #242323;
+  display: flex;
+  gap:20%;
+  justify-content: center;
+  color: white;
+  margin-bottom: 3px;
+}
+
+/* Header 2 Styling */
+
+.header-container{
+  height: 50px;
+  background-color: #262626ED;
+  margin-bottom: 3px;
+}
+
+.header-buttons a{
+  text-decoration-line: none;
+  color: white;
+}
+
+.header-buttons{
+  position: relative;
+  display: flex;
+  gap: 5vh;
+  justify-content: center;
+  align-items: center;
+  top:30%;
+}
+
+.menu{
+  background-color: #323233;
+  position: absolute;
+  display: flex;
+  margin-left: 90%;
+  opacity: 15%;
+  height: 4vh;
+}
